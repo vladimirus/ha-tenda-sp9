@@ -1,0 +1,1 @@
+{"account":"1","ssid":"YOUR_WIFI_NAME","key":"YOUR_WIFI_PASSWORD","server":"YOUR_HA_IP","location":"Europe/London","time_zone":0}

@@ -6,7 +6,7 @@
   "documentation": "None",
   "dependencies": [],
   "codeowners": ["@vladimirus"],
-  "issue_tracker": "https://github.com/vladimirus/tenda_beli_plug_hassint/issues",
+  "issue_tracker": "https://github.com/vladimirus/ha-tenda-sp9",
   "loggers": ["tendabeli"],
   "requirements": [],
   "version": "0.1.3"

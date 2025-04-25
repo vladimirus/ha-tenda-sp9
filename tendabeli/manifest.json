@@ -5,8 +5,8 @@
   "iot_class": "local_polling",
   "documentation": "None",
   "dependencies": [],
-  "codeowners": ["@jakdoh"],
-  "issue_tracker": "https://github.com/JakDoh/tenda_beli_plug_hassint/issues",
+  "codeowners": ["@vladimirus"],
+  "issue_tracker": "https://github.com/vladimirus/tenda_beli_plug_hassint/issues",
   "loggers": ["tendabeli"],
   "requirements": [],
   "version": "0.1.3"

@@ -1,6 +1,6 @@
 {
   "name": "Tenda Beli Plug",
-  "content_in_root": true,
+  "content_in_root": false,
   "domain": "tendabeli",
   "documentation": "https://github.com/vladimirus/tenda_beli_plug_hassint",
   "issues": "https://github.com/vladimirus/tenda_beli_plug_hassint/issues",

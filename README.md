@@ -1,4 +1,4 @@
-# Tenda SP9 Smart Plug with Energy Monitoring – Home Assistant integration
+# Tenda SP9 / SP3 Smart Plug with Energy Monitoring – Home Assistant integration
 
 Control and monitor Tenda SP9 smart plugs — and likely SP3 units as well (energy sensor may be missing) — locally from Home Assistant, with no Tenda cloud or mobile app required.
 

@@ -1,6 +1,6 @@
-# Tenda Beli SP9 – Home Assistant integration
+# Tenda SP9 Smart Plug with Energy Monitoring – Home Assistant integration
 
-Control and monitor **Tenda Beli SP9 smart plugs** locally from Home Assistant—no Tenda cloud or mobile app required.
+Control and monitor Tenda SP9 smart plugs — and likely SP3 units as well (energy sensor may be missing) — locally from Home Assistant, with no Tenda cloud or mobile app required.
 
 ---
 

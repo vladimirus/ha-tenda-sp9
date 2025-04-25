@@ -17,7 +17,7 @@ Control and monitor **Tenda Beli SP9 smart plugs** locally from Home Assistant�
 1. **HACS → Settings → Custom repositories**  
    Add
    ```
-   https://github.com/vladimirus/tenda_beli_plug_hassint
+   https://github.com/vladimirus/ha-tenda-sp9
    ```  
    Category = **Integration**.
 2. **HACS → Integrations → Explore & Download**  

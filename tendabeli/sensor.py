@@ -5,7 +5,7 @@ from .tenda import TendaBeliPlug, TendaBeliServer
 
 from homeassistant.components.sensor import (SensorEntity)
 from homeassistant.helpers.entity_registry import async_get
-from homeassistant.const import DEVICE_CLASS_ENERGY, DEVICE_CLASS_POWER
+from homeassistant.components.sensor import (SensorDeviceClass, SensorStateClass)
 from homeassistant.core import HomeAssistant
 from homeassistant.helpers.entity_platform import AddEntitiesCallback
 from homeassistant.helpers.typing import ConfigType, DiscoveryInfoType
@@ -114,9 +114,9 @@ class TendaBeliPower(TendaBeliSensor):
         super().__init__(hub, sn)
         self._attr_name = f"tbp_power_{self._sn[-4:]}"
         self._attr_unique_id = f"tbp_power_{self._sn}"
-        self._attr_device_class = DEVICE_CLASS_POWER
+        self._attr_device_class = SensorDeviceClass.POWER
         self._attr_unit_of_measurement = "W"
-        self._attr_state_class = "measurement"
+        self._attr_state_class = SensorStateClass.MEASUREMENT
         
 
     async def async_update(self) -> None:
@@ -129,9 +129,9 @@ class TendaBeliEnergy(TendaBeliSensor):
         super().__init__(hub, sn)
         self._attr_name = f"tbp_energy_{self._sn[-4:]}"
         self._attr_unique_id = f"tbp_energy_{self._sn}"
-        self._attr_device_class = DEVICE_CLASS_ENERGY
+        self._attr_device_class = SensorDeviceClass.ENERGY
         self._attr_unit_of_measurement = "kWh"
-        self._attr_state_class = "total_increasing"
+        self._attr_state_class = SensorStateClass.TOTAL_INCREASING
 
     async def async_update(self) -> None:
         self._state = self._plug.energy
